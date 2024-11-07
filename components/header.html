@@ -1,0 +1,51 @@
+
+
+<header>
+  <!-- Sidebar/menu -->
+  <nav class="w3-sidebar w3-black w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Fechar</a>
+    <div class="w3-container">
+      <span class="w3-left w3-padding">
+        <!-- LINK QUE ESTÁ NA LOGO -->
+        <a href="/index/index.html">
+          <img src="https://portalccc.github.io/index/img/logocccnegativa1.png" alt="Logo CCC" style="height:40px; vertical-align:middle; margin-right:10px;">
+        </a>
+      </span>
+      
+      <h3 class="w3-padding-64"><b>Unidades<br>CCC</b></h3>
+
+      <!-- CAMPO DE BUSCA  -->
+      <div style="position: relative; width: 100%; margin-top: 20px;">
+        <form action="/index/emdesenvolvimento.html" method="get" style="display: flex; align-items: center; width: 100%;">
+          <input type="text" name="query" placeholder="Buscar..." 
+                 style="padding: 8px 8px 8px 40px; border: none; border-bottom: 2px solid white; color: white; background-color: transparent; outline: none; width: 70%; max-width: 200px;"
+                 onclick="redirectToSearchPage(event)">
+          <button type="submit" style="border: none; background: none; color: white; position: absolute; left: 8px; top: 8px;">
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="w3-bar-block">
+      <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Início</a> 
+      <a href="#contratacoescentralizadas" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">SUBCOMP</a> 
+      <a href="#selecaodefornecedor" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">SCPOL</a> 
+      <a href="#gestaocontratual" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">SCPLAN</a>
+      <a href="#acompanhamentodedemanda" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">SCLIC</a>
+      <a href="#acompanhamentodedemanda" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">SCATC</a>
+      <a href="#acompanhamentodedemanda" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Assessoria Jurídica</a> 
+    </div>
+  </nav>  
+</header>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-black w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-black w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Catálogo de Serviços <b>CCC</b></span>
+</header>
+<br>
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
