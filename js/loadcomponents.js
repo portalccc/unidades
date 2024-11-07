@@ -21,7 +21,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
 function redirectToSearchPage(event) {
     event.preventDefault(); // Impede que o campo de entrada seja focado
-    window.location.href = '/index/emdesenvolvimento.html'; // Redireciona para a nova página
+    window.location.href = '/inicio/emdesenvolvimento.html'; // Redireciona para a nova página
   }
 
 
